@@ -1,0 +1,58 @@
+body {
+    background-color: #3b3b3b;
+}
+
+.landing.first {
+    background-image: url('https://ik.imagekit.io/dwimageKit/landing-page-library/benjamin-voros-phIFdC6lA4E-unsplash.jpg?updatedAt=1693948502302');
+}
+
+.landing.second {
+    background-image: url('https://ik.imagekit.io/dwimageKit/landing-page-library/daniel-leone-g30P1zcOzXo-unsplash.jpg?updatedAt=1693948553383');
+}
+
+.landing.third {
+    background-image: url('https://ik.imagekit.io/dwimageKit/landing-page-library/massimiliano-morosinotto-3i5PHVp1Fkw-unsplash.jpg?updatedAt=1693948607662');
+}
+
+.landing.fourth {
+    background-image: url('https://ik.imagekit.io/dwimageKit/landing-page-library/ayumi-kubo-zIja6vTunL4-unsplash.jpg?updatedAt=1693948884377');
+}
+
+.landing.fifth {
+    background-image: url('https://ik.imagekit.io/dwimageKit/landing-page-library/bastien-nvs-Lmd-CpZOGWc-unsplash.jpg?updatedAt=1693948960913');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.landing {
+    background-color: royalblue;
+    height: 800px;
+    max-height: 800px;
+    min-height: 800px;
+    width: 1200px;
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.landing.first h1 {
+    font-size: 132px;
+    letter-spacing: 5px;
+    margin-top: -65px;
+    margin-left: -30px;
+    -webkit-text-stroke: 4px navy;
+    /* text-stroke: 4px navy; */
+}
+
+.landing.first h1 .fade {
+    -webkit-text-stroke: 0px;
+    font-size: 132px;
+    background: -webkit-linear-gradient(#000000 70%, #00461d00 30%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
