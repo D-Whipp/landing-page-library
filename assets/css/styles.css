@@ -42,17 +42,33 @@ body {
 .landing.first h1 {
     font-size: 132px;
     letter-spacing: 5px;
-    margin-top: -65px;
-    margin-left: -30px;
-    -webkit-text-stroke: 4px navy;
-    /* text-stroke: 4px navy; */
+    margin-top: -166px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    /* background: -webkit-linear-gradient(#00461d67 0%, #00000096 35%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.landing.first h1 .top-text {
+    background: -webkit-linear-gradient(#00461d67 0%, #00000096 35%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .landing.first h1 .fade {
     -webkit-text-stroke: 0px;
     font-size: 132px;
-    background: -webkit-linear-gradient(#000000 70%, #00461d00 30%);
+    background: -webkit-linear-gradient(#000000 65%, #00461d00 30%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.landing.first p {
+    color: #fff;
+    top: 30px;
+    font-size: 32px;
+    position: absolute;
 }
